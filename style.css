@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
+
+body {
+    background-color: rgb(80, 85, 83);
+    font-family: 'Pixelify Sans', cursive;
+    color: aliceblue;
+}
+
+nav {
+    padding: 90px;
+    display: contents;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: right;
+    margin-top: -35px
+}
+
+a {
+    display: block;
+    padding: 8px;
+    color: aliceblue;
+    text-decoration: none;
+    transition:  0.5s ease;
+    cursor: pointer;
+}
+
+.discr {
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+}
+
+a :hover {
+    color: rgb(22, 94, 156);
+    text-decoration: underline;
+}
+
+.container {
+    margin-top: 100px;
+}
+
+.profile {
+    border-radius: 50%;
+}
+
+button {
+    background: transparent;
+    color: aliceblue;
+    border: 1px solid white;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+    border-radius: 4px;
+    font-family: 'Pixelify Sans', cursive;
+    transition:  0.5s ease;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+    color: rgb(105, 101, 101);
+}
+
+.social a {
+    display: inline-block;
+    margin-top: 20px;
+    transition:  0.5s ease;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.social a :hover {
+    background-color: azure;
+    color: aliceblue;
+}
+
+#about {
+    background-color: rgb(59, 57, 57);
+    margin: 10px;
+    border-radius: 4px;
+    padding: 50px;
+}
+.cont {
+    display: flex;
+}
+
+.contact {
+    padding: 50px;
+    width: 150%;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(135, 131, 131);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+.pic {
+    float: right;
+    margin-top: 145px;
+    margin-right: 100px;
+    margin-left: 70px;
+}
